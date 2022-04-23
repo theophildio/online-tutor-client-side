@@ -1,0 +1,30 @@
+.cource-detail-container {
+  width: 85%;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+.cource-detail-container h2 {
+  margin: 20px 0;
+  font-size: 38px;
+  color: #125B50;
+}
+
+.cource-detail-container h2 span {
+  color: #FF6363;
+}
+
+.cource-detail {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+  align-items: center;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.cource-detail h4 {
+  font-size: 22px;
+  color: #125B50;
+}

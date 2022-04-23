@@ -1,0 +1,12 @@
+.blogs {
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.blogs h2 {
+  text-align: center;
+  color: #125B50;
+  text-transform: uppercase;
+  font-size: 42px;
+}

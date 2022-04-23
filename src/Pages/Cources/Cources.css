@@ -1,0 +1,35 @@
+.cources-container {
+  width: 85%;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.cources-container h3 {
+  font-size: 50px;
+  color: #FF6363;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+.cources {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px 0;
+}
+
+/* Responsive */
+@media only screen and (max-width: 480px) {
+  .cources-container {
+    padding-bottom: 20px;
+  }
+  .cources-container h3 {
+    margin-top: 0;
+  }
+  .cources {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+}

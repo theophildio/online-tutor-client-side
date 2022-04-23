@@ -1,0 +1,30 @@
+.not-found {
+  width: 85%;
+  min-height: 60vh;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.not-found h1 {
+  font-size: 120px;
+  color: #FF6363;
+  margin-bottom: 20px;
+}
+
+.not-found h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #125B50;
+  text-transform: uppercase;
+}
+
+.not-found p {
+  color: #353636;
+  line-height: 27px;
+  margin: 10px;
+}
+
+.not-found .tutor-btn {
+  text-transform: uppercase;
+  cursor: pointer;
+}

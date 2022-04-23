@@ -1,0 +1,23 @@
+.menu-items a {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #353636;
+  transition: color 0.5s;
+}
+
+
+.menu-items a:last-child {
+  margin-right: 0;
+  background-color: #125B50;
+  color: #FAF5E4;
+  padding: 6px 24px;
+  border-radius: 25px;
+  transition: 0.5s;
+}
+
+.menu-items a:last-child:hover {
+  background-color: #187466;
+}

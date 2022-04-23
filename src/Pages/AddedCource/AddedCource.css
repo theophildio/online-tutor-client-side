@@ -1,0 +1,24 @@
+.cource-img img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.cource-infos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cource-infos p {
+  color: #125B50;
+  font-size: 18px;
+}
+
+.remove-icon {
+  background-color: #125B50;
+  color: #FF6363;
+  width: 18px;
+  height: 18px;
+  padding: 10px;
+  border-radius: 50%;
+}

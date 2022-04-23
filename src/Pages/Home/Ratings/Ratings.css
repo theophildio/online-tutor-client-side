@@ -1,0 +1,43 @@
+.ratings {
+  background-color: #F8B400;
+  padding: 100px 0;
+  margin-bottom: 80px;
+}
+
+.ratings-container {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  color: #FAF5E4;
+}
+
+.ratings-container h2 {
+  font-size: 35px;
+}
+
+.ratings-container hr {
+  background-color: #FAF5E4;
+  margin-bottom: 40px;
+}
+
+.ratings-container img {
+  cursor: pointer;
+}
+
+.ratings-container p {
+  font-weight: 500;
+}
+
+/* Responsive */
+@media only screen and (max-width: 480px) {
+  .ratings {
+    padding: 50px 0;
+    margin-bottom: 40px;
+  }
+  .ratings-container h2 {
+    font-size: 30px;
+  }
+  .ratings-container hr {
+    margin-bottom: 20px;
+  }
+}

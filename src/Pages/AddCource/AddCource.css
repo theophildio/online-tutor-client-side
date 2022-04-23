@@ -1,0 +1,10 @@
+.addcource-container {
+  width: 85%;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+.addcource-container input {
+  display: block;
+  margin: 20px 0;
+}

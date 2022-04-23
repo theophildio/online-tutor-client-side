@@ -1,0 +1,17 @@
+.blog-container {
+  margin: 40px 0;
+}
+.blog-container h3 {
+  color: #125B50;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.blog-container p {
+  color: #353636;
+  line-height: 27px;
+}
+
+.blog-container span {
+  color: #FF6363;
+}

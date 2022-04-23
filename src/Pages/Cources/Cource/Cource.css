@@ -1,0 +1,48 @@
+.navigate-detail {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: left;
+}
+
+.cource {
+  width: 23%;
+  padding: 8px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: box-shadow 0.3s;
+  margin-bottom: 40px;
+  min-height: 400px;
+}
+
+.cource img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.cource h4 {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #125B50;
+}
+
+.cources-container .cource h2 {
+  color: #FF6363;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.cource:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 480px) {
+  .cource {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

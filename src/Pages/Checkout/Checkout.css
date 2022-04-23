@@ -1,0 +1,58 @@
+.checkout {
+  min-height: 80vh;
+  padding: 80px 0;
+}
+
+.checkout h3 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 500;
+  color: #125B50;
+  margin-bottom: 20px;
+}
+
+.checkout h4 {
+  color: #125B50;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.checkout-container {
+  width: 85%;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 40px;
+}
+
+
+
+.checkout-container .checkout-form {
+  padding: 40px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 10px;
+}
+
+.checkout-container .added-cources {
+  padding: 40px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 10px;
+}
+
+.added-cources .cource-details {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 15px;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 6px;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.added-cources .cource-details:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

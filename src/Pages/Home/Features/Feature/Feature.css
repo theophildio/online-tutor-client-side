@@ -1,0 +1,36 @@
+.feature {
+  width: 33%;
+  text-align: center;
+  padding: 60px 40px;
+  cursor: pointer;
+}
+
+.feature img {
+  width: 40%;
+  height: auto;
+  border: 3px solid #125B50;
+  border-radius: 50%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.feature h4 {
+  text-transform: capitalize;
+  color: #125B50;
+  font-size: 20px;
+  margin: 14px 0;
+}
+
+.feature p {
+  color: #353636;
+}
+
+.feature:nth-child(2) {
+  background-color: #FAF5E4;
+}
+
+/* Responsive */
+@media only screen and (max-width: 480px) {
+  .feature {
+    width: 100%;
+  }
+}
